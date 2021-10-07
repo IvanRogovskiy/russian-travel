@@ -2,8 +2,23 @@
     padding-top: 56px;
     padding-right: 148px;
     padding-left: 148px;
-    max-width: 984px;
-    margin: 0 auto;
+    /*max-width: 984px;*/
+    width: 100%;
+    /*margin: 0 auto;*/
     border: 1px red solid;
     box-sizing: border-box;
+}
+
+@media screen and (max-width:1024px) {
+    .lead {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .lead {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }

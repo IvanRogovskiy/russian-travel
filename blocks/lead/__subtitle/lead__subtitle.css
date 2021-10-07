@@ -2,7 +2,34 @@
     font-size: 30px;
     line-height: 1.2;
     font-weight: 400;
-    width: 600px;
+    max-width: 640px;
+    min-width: 288px;
     text-align: center;
     margin: 32px auto 0;
+}
+
+@media screen and (max-width:640px) {
+    .lead__subtitle {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:590px) {
+    .lead__subtitle {
+        font-size: 20px;
+
+    }
+}
+
+/*@media screen and (max-width:490px) {*/
+/*    .lead__subtitle {*/
+/*        font-size: 20px;*/
+
+/*    }*/
+
+
+@media screen and (max-width:320px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 1.25;
+    }
 }
