@@ -5,4 +5,5 @@
     max-width: 984px;
     margin: 0 auto;
     border: 1px red solid;
+    box-sizing: border-box;
 }
