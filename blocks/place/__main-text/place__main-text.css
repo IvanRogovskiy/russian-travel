@@ -1,0 +1,4 @@
+.place__main-text {
+    grid-area: place__main-text;
+    grid-column: -2/-1
+}

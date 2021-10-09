@@ -2,13 +2,21 @@
     display: grid;
     padding-right: 48px;
     padding-left: 48px;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(249px, max-content));
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
 }
 
 @media screen and (max-width:768px) {
     .photo-grid {
-        display: none;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width:352px) {
+    .photo-grid {
+        padding-right: 16px;
+        padding-left: 16px;
     }
 }
