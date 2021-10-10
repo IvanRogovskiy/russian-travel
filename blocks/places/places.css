@@ -17,5 +17,20 @@
     .places {
         padding-left: 24px;
         padding-right: 24px;
+        padding-top: 88px;
     }
 }
+
+@media screen and (max-width:690px) {
+    .places {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 80px;
+    }
+}
+
+    @media screen and (max-width:320px) {
+        .places {
+            padding: 64px 0 0;
+        }
+    }

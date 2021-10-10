@@ -6,5 +6,28 @@
      "place__image place__main-text";
     column-gap: 40px;
     row-gap: 48px;
+    padding-bottom: 80px;
 
+}
+
+@media screen and (max-width:695px) {
+    .place {
+        grid-template-areas:
+     "place__title"
+     "place__website"
+     "place__image"
+     "place__main-text"
+     "place__main-text";
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place {
+        grid-template-areas:
+     "place__title"
+     "place__website"
+     "place__image"
+     "place__main-text"
+     "place__main-text";
+    }
 }
