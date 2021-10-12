@@ -1,0 +1,29 @@
+.footer__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 18px;
+}
+
+@media screen and (max-width:600px) {
+    .footer__link {
+        margin-right: 14px;
+    }
+}
+
+@media screen and (max-width:508px) {
+    .footer__link {
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .footer__link {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer__link {
+        margin-bottom: 32px;
+    }
+}
