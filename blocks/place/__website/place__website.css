@@ -1,14 +1,13 @@
 .place__website {
     grid-area: place__website;
     color: #FFFFFF;
-    align-self: end;
     display: flex;
     flex-direction: column;
     text-decoration: underline;
 }
 
-.place__website::before {
-    content: 'URL';
-    text-decoration: none;
+/*.place__website::before {*/
+/*    content: 'URL';*/
+/*    text-decoration: none;*/
 
-}
+/*}*/
