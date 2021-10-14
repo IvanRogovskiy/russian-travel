@@ -4,6 +4,11 @@
     display: flex;
     flex-direction: column;
     text-decoration: underline;
+    transition: opacity .3s;
+}
+
+.place__website:hover {
+    opacity: 70%;
 }
 
 /*.place__website::before {*/

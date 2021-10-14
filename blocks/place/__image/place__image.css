@@ -10,9 +10,22 @@
     }
 }
 
+@media screen and (max-width:1024px) {
+    .place__image {
+        width: 45vw;
+    }
+}
+
 @media screen and (max-width:768px) {
     .place__image {
         width: 340px;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width:695px) {
+    .place__image {
+        width: 80vw;
     }
 }
 
