@@ -29,5 +29,6 @@
      "place__image"
      "place__main-text"
      "place__main-text";
+        row-gap: 32px;
     }
 }

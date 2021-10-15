@@ -3,37 +3,13 @@
     align-items: stretch;
     justify-content: center;
     padding: 0 48px;
-    /*max-width: 1184px;*/
     min-height: 740px;
-    /*background-image: url("../../images/to-baikal-cover.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*background-origin: content-box;*/
     box-sizing: border-box;
     position: relative;
 }
 
-/*.cover::after {*/
-/*    content: '';*/
-/*    display: block;*/
-/*    opacity: 30%;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    !*background-color: #2A2C2F;*!*/
-/*    background-color: red;*/
-/*    position: absolute;*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*}*/
-
-/*.cover:hover:after {*/
-/*    opacity: 70%;*/
-/*}*/
-
-
 @media screen and (max-width:1024px) {
     .cover {
-        /*width: 100%;*/
         padding-right: 0;
         padding-left: 0;
         min-height: 640px;

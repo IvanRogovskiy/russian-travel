@@ -13,3 +13,10 @@
         font-size: 42px;
     }
 }
+
+@media screen and (max-width:320px) {
+    .place__title {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
