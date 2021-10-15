@@ -1,6 +1,6 @@
 .place__main-text {
     grid-area: place__main-text;
-    grid-column: -2/-1
+    grid-column: -2/-1;
 }
 
 @media screen and (max-width:320px) {
