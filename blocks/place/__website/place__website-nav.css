@@ -1,11 +1,11 @@
-.place__website_nav {
+.place__website-nav {
     display: flex;
     flex-direction: column-reverse;
     margin: 0;
 }
 
 @media screen and (max-width:320px) {
-    .place__website_nav {
+    .place__website-nav {
         margin-left: 16px;
         margin-right: 16px;
     }
