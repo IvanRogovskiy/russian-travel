@@ -4,6 +4,7 @@
     padding-left: 148px;
     width: 100%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 @media screen and (max-width:1024px) {
