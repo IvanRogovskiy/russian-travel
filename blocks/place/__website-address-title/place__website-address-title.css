@@ -1,5 +1,9 @@
 .place__website-address-title {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
     margin-bottom: 12px;
     text-decoration: none;
     color: #AAAAAA;
+    text-transform: uppercase;
 }
