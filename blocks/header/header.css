@@ -2,7 +2,7 @@
     max-width: 1184px;
     margin: 0 auto;
     display: flex;
-    height: 80px;
+    min-height: 58px;
     padding-top: 28px;
     padding-left: 48px;
     padding-right: 48px;
@@ -18,8 +18,15 @@
     }
 }
 
+@media screen and (max-width:425px) {
+    .header {
+       padding-top: 20px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .header {
+        padding-top: 16px;
         padding-right: 16px;
         padding-left: 16px;
     }
