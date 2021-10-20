@@ -31,18 +31,3 @@
 .cover__link:hover:after {
     opacity: 80%;
 }
-
-@media screen and (max-width:1024px) {
-    .cover__link {
-    }
-}
-
-@media screen and (max-width:768px) {
-    .cover__link {
-    }
-}
-
-@media screen and (max-width:600px) {
-    .cover__link {
-    }
-}
