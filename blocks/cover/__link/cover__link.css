@@ -1,5 +1,6 @@
 .cover__link {
     background-image: url(../../../images/to-baikal-cover.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
