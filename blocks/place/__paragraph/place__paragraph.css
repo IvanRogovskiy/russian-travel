@@ -16,7 +16,7 @@
 }
 
 .place__paragraph:last-child {
-    line-height: 1.61;
+    line-height: 29px;
     grid-area: place__paragraph;
     grid-row: 2/3;
     padding-bottom: 0;
