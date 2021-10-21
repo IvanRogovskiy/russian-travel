@@ -47,4 +47,8 @@
          "place__main-text";
         row-gap: 32px;
     }
+
+    .place:last-child {
+        padding-bottom: 66px;
+    }
 }

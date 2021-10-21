@@ -50,4 +50,8 @@
         line-height: 1;
         font-weight: 400;
     }
+
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
 }

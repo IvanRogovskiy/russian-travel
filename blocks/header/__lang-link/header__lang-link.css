@@ -24,7 +24,6 @@
     }
 }
 
-
 @media screen and (max-width:440px) {
     .header__lang-link {
         font-size: 1.14rem;
@@ -35,6 +34,7 @@
     .header__lang-link {
         font-size: 1.125rem;
         line-height: 1.11;
+        margin-right: 14px;
     }
 }
 
