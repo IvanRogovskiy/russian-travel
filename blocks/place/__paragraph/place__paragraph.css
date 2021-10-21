@@ -7,18 +7,24 @@
     padding-bottom: 27px;
 }
 
-@media screen and (max-width:768px) {
-    .place__paragraph {
-        font-size: 16px;
-        line-height: 26px;
-        padding-bottom: 25px;
-    }
-}
-
 .place__paragraph:last-child {
     line-height: 29px;
     grid-area: place__paragraph;
     grid-row: 2/3;
     padding-bottom: 0;
 }
+
+@media screen and (max-width:768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 25px;
+    }
+
+    .place__paragraph:last-child {
+        line-height: 26px;
+    }
+}
+
+
 
