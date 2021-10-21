@@ -1,6 +1,7 @@
 .place__image {
     grid-area: place__image;
     grid-column: 1/2;
+    max-width: 460px;
     width: 35.938vw;
 }
 
@@ -9,12 +10,6 @@
         width: 440px;
     }
 }
-
-/*@media screen and (max-width:1024px) {*/
-/*    .place__image {*/
-/*        width: 45vw;*/
-/*    }*/
-/*}*/
 
 @media screen and (max-width:768px) {
     .place__image {
