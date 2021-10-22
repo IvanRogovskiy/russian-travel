@@ -1,15 +1,7 @@
-/*А почему я не могу менять шрифт в промежуточных точках? Ведь главное только в контрольных*/
-/*иметь нужный*/
 .footer__copyright {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.14;
-}
-
-@media screen and (max-width:550px) {
-    .footer__copyright {
-        font-size: 12px;
-    }
 }
 
 @media screen and (max-width:550px) {
@@ -32,9 +24,7 @@
 
 @media screen and (max-width:320px) {
     .footer__copyright {
-        text-align: left;
         font-size: 14px;
-        font-weight: 400;
         line-height: 1;
     }
 }

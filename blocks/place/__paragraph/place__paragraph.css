@@ -8,9 +8,6 @@
 }
 
 .place__paragraph:last-child {
-    line-height: 29px;
-    grid-area: place__paragraph;
-    grid-row: 2/3;
     padding-bottom: 0;
 }
 
@@ -19,10 +16,6 @@
         font-size: 16px;
         line-height: 26px;
         padding-bottom: 25px;
-    }
-
-    .place__paragraph:last-child {
-        line-height: 26px;
     }
 }
 

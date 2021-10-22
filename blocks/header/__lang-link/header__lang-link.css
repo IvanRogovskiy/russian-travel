@@ -6,6 +6,7 @@
     color: #FFFFFF;
     margin-right: 18px;
     transition: opacity .3s;
+    text-underline-offset: 3px;
 }
 
 .header__lang-link:last-child {
@@ -15,7 +16,6 @@
 @media screen and (max-width:580px) {
     .header__lang-link {
         font-size: 1.25rem;
-        line-height: 1.17;
     }
 }
 
