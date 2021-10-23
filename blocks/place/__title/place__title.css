@@ -12,6 +12,7 @@
     .place__title {
         font-size: 42px;
         line-height: 1.1;
+        width: 100%;
     }
 
     .place__title:nth-child(4) {
